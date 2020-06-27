@@ -7,16 +7,17 @@
 
 <body>
     
-<h3>form
-<form onsubmit="showGenPub(); return false;">
-    <p>curve: <input type="text" id="curve" value="secp256k1">
-    <p>pow bits:<input type="text" id="pow" value="13">
-    <input type="submit">
-</form>
+    <h3>form</h3>
 
-<h3>output
-<p>milliseconds: <div id="ms"></div>
-<p>pubkey: <div id="pub"></div>
+    <form onsubmit="showGenPub(); return false;">
+        <p>curve: <input type="text" id="curve" value="secp256k1">
+        <p>pow bits:<input type="text" id="pow" value="13">
+        <input type="submit">
+    </form>
+
+    <h3>output</h3>
+    <p>milliseconds: <div id="ms"></div>
+    <p>pubkey: <div id="pub"></div>
 
 <script>
 var Buffer
