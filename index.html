@@ -6,15 +6,17 @@
 <html lang="en-US">
 
 <body>
-
+    
+<h3>form
 <form onsubmit="showGenPub(); return false;">
-    curve: <input type="text" id="curve" value="secp256k1">
-    pow bits:
-    <input type="text" id="pow" value="13">
-    milliseconds: <div id="ms"></div>
-    pubkey: <div id="pub"></div>
+    <p>curve: <input type="text" id="curve" value="secp256k1">
+    <p>pow bits:<input type="text" id="pow" value="13">
     <input type="submit">
 </form>
+
+<h3>output
+<p>milliseconds: <div id="ms"></div>
+<p>pubkey: <div id="pub"></div>
 
 <script>
 var Buffer
